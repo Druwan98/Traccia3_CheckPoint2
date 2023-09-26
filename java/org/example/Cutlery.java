@@ -15,10 +15,6 @@ public class Cutlery {
         return dirtiness;
     }
 
-    public void setDirtiness(int dirtiness) {
-        this.dirtiness = dirtiness;
-    }
-
     public void onUse(Food food) {
         dirtiness += getDirtiness();
     }

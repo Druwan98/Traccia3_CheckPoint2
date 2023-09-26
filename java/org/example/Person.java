@@ -11,9 +11,9 @@ public class Person {
         return hunger;
     }
 
-    public void setHunger(int hunger) {
-        this.hunger = hunger;
-    }
+//    public void setHunger(int hunger) {
+//        this.hunger = hunger;
+//    }
 
     public void eat(Food food, Cutlery cutlery) throws Exception {
         if (cutlery.getDirtiness() > 0) {
